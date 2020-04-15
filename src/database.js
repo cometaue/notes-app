@@ -1,13 +1,16 @@
 const mongoose = require('mongoose');
 require('colors');
 mongoose
-  .connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-  })
+  .connect(
+    'mongodb+srv://cometa:leyrealeya@cometa-awd1l.mongodb.net/test?retryWrites=true&w=majority',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+    }
+  )
   .then(() => {
-    console.log('database connected'.bgYellow);
+    console.log('database connected');
   })
   .catch((err) => console.log(err));
 

@@ -9,5 +9,5 @@ require('colors');
 /* ******************************** */
 
 app.listen(app.get('port'), () => {
-  console.log('server on port'.bgGreen, app.get('port').bgGreen);
+  console.log('server on port', app.get('port'));
 });
