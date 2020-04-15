@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose
   .connect(
-    'mongodb+srv://cometa:leyrealeya@cometa-awd1l.mongodb.net/test?retryWrites=true&w=majority',
+    'mongodb+srv://cometa:leyrealeya@cluster0-awd1l.mongodb.net/test?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
