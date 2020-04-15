@@ -3,7 +3,6 @@
 /* ******************************** */
 const app = require('./server').app;
 const db = require('./database');
-require('colors');
 /* ******************************** */
 /*                server                */
 /* ******************************** */
